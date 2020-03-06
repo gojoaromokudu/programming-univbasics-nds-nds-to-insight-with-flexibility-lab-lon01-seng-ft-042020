@@ -56,7 +56,7 @@ def movies_with_director_key(name, movies_collection)
       array << movie_with_director_name(name,directors_database[0][:movies][movie_index])
       movie_index += 1 
     end
-    directors_database += 1 
+    director_index += 1 
   end
  array
 end
